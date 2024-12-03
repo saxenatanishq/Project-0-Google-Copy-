@@ -1,0 +1,40 @@
+$color1: rgb(32,33,36);
+$color2: rgb(77, 81, 86);
+$color3: rgb(119, 121, 125);
+body{
+    background-color: $color1;
+}
+#search_bar{
+    background-color: $color2;
+    $enable-rounded:$color1;
+}
+#search_bar:hover{
+    background-color:$color3;
+    $enable-rounded:$color1;
+}
+p{
+    margin: 15px;
+    text-align: end;
+}
+a{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+#logo{
+    margin-top: 8%;
+}
+#search_bar{
+    display: block;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+button{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.btn:hover{
+    border: 1px solid white;
+}
