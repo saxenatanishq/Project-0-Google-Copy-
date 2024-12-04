@@ -8,28 +8,34 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <p>
-            <img id="advanced_logo" src="C:\Storage\Tanishq\Web dev\project-0\icons\Google logo.png" alt="google logo">
-            <a id="advanced_link"href="index.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Go back</a>
-        </p>
-        <hr>
-        <h4>Find pages with...</h4>
-        <div class="container text-center">
-            <form action="">
-                <div class="row">
-                    <div class="col-6 col-sm-3">all these words:</div>
-                    <div class="col-6 col-sm-3"><input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example"></div>
-                    <div class="w-100"></div>
-                    <div class="col-6 col-sm-3">this exact word or phrase:</div>
-                    <div class="col-6 col-sm-3"><input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example"></div>
-                    <div class="w-100"></div>
-                    <div class="col-6 col-sm-3">any of these words:</div>
-                    <div class="col-6 col-sm-3"><input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example"></div>
-                    <div class="w-100"></div>
-                    <div class="col-6 col-sm-3">none of these words:</div>
-                    <div class="col-6 col-sm-3"><input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example"></div>
-                </div>
-            </form>
+        <div class="row">
+            <div class="col">
+                <img id="advanced_logo" src="C:\Storage\Tanishq\Web dev\project-0\icons\Google logo.png" alt="google logo">
+            </div>
+            <div class="col">
+                <a id="go_back" href="index.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Go back</a>
+            </div>
         </div>
+        <h3>Advanced Search</h>
+        <hr>
+        <h5>Find pages with...</h5>
+        <form action="https://www.google.com/search">
+            <div class="row">
+                <div class="col-6 col-sm-3">all these words:</div>
+                <div class="col-6 col-sm-3"><input class="form-control form-control-sm adv" type="text" aria-label=".form-control-sm example" name="as_q"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-sm-3">this exact word or phrase:</div>
+                <div class="col-6 col-sm-3"><input class="form-control form-control-sm adv" type="text" aria-label=".form-control-sm example" name="as_epq"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-sm-3">any of these words:</div>
+                <div class="col-6 col-sm-3"><input class="form-control form-control-sm adv" type="text" aria-label=".form-control-sm example" name="as_oq"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-sm-3">none of these words:</div>
+                <div class="col-6 col-sm-3"><input class="form-control form-control-sm adv" type="text" aria-label=".form-control-sm example" name="as_eq"></div>
+                <div class="w-100"></div>
+                <div class="col-6 col-sm-3"> </div>
+                <div class="col-6 col-sm-3" style="text-align: end;"><button id="final_button" type="submit" class="btn btn-primary btn-sm">Advanced Search</button></div>
+            </div>
+        </form>
     </body>
 </html>
