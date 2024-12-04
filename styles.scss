@@ -33,9 +33,16 @@ a{
     margin-right: auto;
     margin-bottom: 1%;
 }
+.search{
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-family:sans-serif, Helvetica,Arial;
+    color: white;
+}
 button{
     margin-left: 0.5%;
     margin-right: 0.5%;
+    padding: 1px 5px;
 }
 .btn:hover{
     border: 1px solid white;
@@ -61,11 +68,18 @@ hr{
     height: 3px;
     border: none;
 }
+%message{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    padding: 3px;
+}
 #final_button{
-    font-family: Arial, sans-serif;
+    @extend %message;
     background-color: $button_color;
 }
 #final_button:hover{
+    @extend %message;
     background-color: $button_hover;
     border: 1px solid white;
 }
