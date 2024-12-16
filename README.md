@@ -1,0 +1,1 @@
+This is a Google copy in which there are few searching features that redirects us to actual google search, image search and advanced search. This is actually my first github project! This is project-0 of web development course by CS50
